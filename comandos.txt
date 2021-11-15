@@ -26,5 +26,13 @@ git branch
 git branch staging     #staging nombre cualquiera
 git checkout staging 
 
+git add .
+git push 
+git push --set-upstream origin staging
+
+
+#trazer actualizacoes para o master
+git branch
+git checkout master  #nombre del branch
 
 
