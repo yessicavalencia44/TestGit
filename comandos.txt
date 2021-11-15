@@ -10,4 +10,13 @@ git remote add origin ...com
 git push --set-upstream origin master #(subir codigo)
 
 #nuevas versiones
+git add .
+git commit -m "....."
+git push
+
+#versiones
+git reflog
+
+#erro e voltar
+fit reset -- hard numero de la version de reflog en amarillo 
 
