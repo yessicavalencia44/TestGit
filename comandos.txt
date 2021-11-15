@@ -20,3 +20,11 @@ git reflog
 #erro e voltar
 fit reset -- hard numero de la version de reflog en amarillo 
 
+
+BRANCH
+git branch
+git branch staging     #staging nombre cualquiera
+git checkout staging 
+
+
+
