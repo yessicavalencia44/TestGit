@@ -1,2 +1,13 @@
 git init 
 git status
+git add ""
+git add .   
+git commit -m "commit inicial"     #mensaje
+git config --global user.email "email..."
+
+git push
+git remote add origin ...com
+git push --set-upstream origin master #(subir codigo)
+
+#nuevas versiones
+
