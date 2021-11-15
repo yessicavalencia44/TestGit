@@ -36,3 +36,7 @@ git branch
 git checkout master  #nombre del branch
 
 git merge staging  #combina com la master
+
+
+git pull  #para traer la version final 
+git merge
