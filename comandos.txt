@@ -35,4 +35,4 @@ git push --set-upstream origin staging
 git branch
 git checkout master  #nombre del branch
 
-
+git merge staging  #combina com la master
