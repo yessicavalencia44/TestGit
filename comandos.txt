@@ -1,11 +1,12 @@
-git init 
-git status
+git init                                    #inicializa um novo repositorio
+git status                                  #verificar o status atual dos repositorios git                 
 git add ""
-git add .   
-git commit -m "commit inicial"     #mensaje
+git add .                                   #adicona os arquivos atuais ao proximo commit  
+git commit -m "commit inicial"              #cria um novo commit com uma mensaje
+
 git config --global user.email "email..."
 
-git push
+git push                                    #envia as atualizaçoes para a nuvem na branch atualemnte ativa                                     
 git remote add origin ...com
 git push --set-upstream origin master #(subir codigo)
 
@@ -22,9 +23,9 @@ fit reset -- hard numero de la version de reflog en amarillo
 
 
 BRANCH
-git branch
-git branch staging     #staging nombre cualquiera
-git checkout staging 
+git branch                                                    #permite listar e ver qual branch está ativa atualmente
+git branch staging                                            #staging nombre cualquiera
+git checkout nome-da-branch                                   #permite mudar para uma nova branch
 
 git add .
 git push 
@@ -35,8 +36,19 @@ git push --set-upstream origin staging
 git branch
 git checkout master  #nombre del branch
 
-git merge staging  #combina com la master
+git merge branch-a-receber-merge          #permite fazer o merge da branch ativa atualemte com outra branch
 
 
-git pull  #para traer la version final 
+git pull                                  #atualiza branch atualemnte ativa
+
 git merge
+
+
+# crear branch del master sin quebrar la brach principal
+git checkout -b "nome-da-branch-de-origem" "nome-da-nova-branch"    #permite mudar e criar uma nova branch com base em outra
+
+
+#ignore
+touch .gitignore
+
+
